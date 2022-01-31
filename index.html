@@ -31,10 +31,24 @@
     </div>
 
     <script>
-      let eye = document.getElementsByClassName("icon");
+      let eye = document.querySelector(".icon");
+      // eye.onclick = function () {
+      //   eye.setAttribute("src", "images/eye-slash.svg");
+      // };
+      const password = document.querySelector(".password__input");
+
+      let myFunction = () => {
+        if (eye.getAttribute("src") === "images/eye-outline.svg") {
+          eye.setAttribute("src", "images/eye-slash.svg");
+          password.type = "text";
+        } else {
+          eye.setAttribute("src", "images/eye-outline.svg");
+          password.type = "password";
+        }
+      };
 
       eye.onclick = function () {
-        this.src = "images/eye-slash.svg";
+        myFunction();
       };
     </script>
   </body>
