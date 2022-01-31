@@ -1,0 +1,112 @@
+html {
+  font-size: 62.5%;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem 2rem;
+  display: block;
+}
+
+.container {
+  height: 52rem;
+  width: 50rem;
+  margin: auto;
+  border-radius: 2rem;
+  border: 2px solid rgba(128, 128, 128, 0.1);
+}
+
+.container .form {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.container .form .form__heading {
+  font-size: 3rem;
+  align-self: flex-start;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email h3 {
+  font-size: 1.9rem;
+}
+
+.email p {
+  font-size: 1.8rem;
+}
+
+.email p a {
+  text-decoration: none;
+  color: green;
+}
+
+.email__input {
+  padding: 1.2rem;
+  border: 1px solid grey;
+  border-radius: 0.3rem;
+  background: #e8f0fe;
+}
+
+.email__input:focus {
+  border: 1px solid darkgrey;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password h3 {
+  font-size: 1.9rem;
+}
+
+.password p {
+  font-size: 1.8rem;
+}
+
+.icon {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.password__input {
+  padding: 1.2rem;
+  border: 1px solid grey;
+  border-radius: 0.3rem;
+  background: #e8f0fe;
+}
+
+.showicondiv {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 5rem;
+  border-radius: 2rem;
+  border: none;
+  padding: 1.3rem 3rem;
+  background: #04aa6d;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: white;
+}
+
+.forget {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}

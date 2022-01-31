@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body">
+    <img src="images//w3schoollogo.jpg" alt="Logo" class="logo" />
+    <div class="container">
+      <form class="form">
+        <h1 class="form__heading">Log in</h1>
+        <div class="email">
+          <h3>Email</h3>
+          <p>Need an account? <a href="#">Sign up</a></p>
+        </div>
+        <input type="text" class="email__input" />
+
+        <div class="password">
+          <h3>Password</h3>
+          <p class="showicondiv">
+            <img class="icon" src="images/eye-outline.svg" alt="eye-outline" />
+            Show
+          </p>
+        </div>
+
+        <input type="password" class="password__input" />
+
+        <button class="btn">Login</button>
+        <p class="forget">Forget Password?</p>
+      </form>
+    </div>
+
+    <script>
+      let eye = document.getElementsByClassName("icon");
+
+      eye.onclick = function () {
+        this.src = "images/eye-slash.svg";
+      };
+    </script>
+  </body>
+</html>
